@@ -1,0 +1,136 @@
+const soundtracksData = [
+  {
+    id: 1,
+    title: "Topic (Коробейники)",
+    duration: "3:50",
+    audioSrc: "/audio/E18AleksandrPetuhov.mp3",
+  },
+  {
+    id: 2,
+    title: "Sundown Blues",
+    duration: "3:31",
+    audioSrc: "/audio/Joanna Levine  Skullbros - Sundown Blues.mp3",
+  },
+  {
+    id: 3,
+    title: "help Pick, Up The Piece",
+    duration: "5:00",
+    audioSrc: "/audio/Lee Silver - help Pick Up The Piece.mp3",
+  },
+  {
+    id: 4,
+    title: "DRAWN OUT LIKE AN AChE",
+    duration: "4:10",
+    audioSrc: "/audio/Lorn - DRAWN OUT LIKE AN AChE.mp3",
+  },
+  {
+    id: 5,
+    title: "Beyond the Aquila",
+    duration: "1:01",
+    audioSrc: "/audio/Love  Death  и  Robots - 07 - Beyond the Aquila.mp3",
+  },
+  {
+    id: 6,
+    title: "Shifters",
+    duration: "1:13",
+    audioSrc: "/audio/Love  Death  и  Robots - 10 Shape -Shifters.mp3",
+  },
+  {
+    id: 7,
+    title: "Alternate histories",
+    duration: "0:43",
+    audioSrc: "/audio/Love  Death  и  Robots - Alternate histories.mp3",
+  },
+  {
+    id: 8,
+    title: "Fish Night",
+    duration: "0:57",
+    audioSrc: "/audio/Love  Death  и  Robots - Fish Night.mp3",
+  },
+  {
+    id: 9,
+    title: "helping hand",
+    duration: "0:47",
+    audioSrc: "/audio/Love  Death  и  Robots - helping hand.mp3",
+  },
+  {
+    id: 10,
+    title: "Ice Age",
+    duration: "1:05",
+    audioSrc: "/audio/Love  Death  и  Robots - Ice Age.mp3",
+  },
+  {
+    id: 11,
+    title: "Lucky-13",
+    duration: "0:48",
+    audioSrc: "/audio/Love  Death  и  Robots - Lucky-13.mp3",
+  },
+  {
+    id: 12,
+    title: "Rob Cairns",
+    duration: "0:37",
+    audioSrc: "/audio/Love  Death  и  Robots - Rob Cairns.mp3",
+  },
+  {
+    id: 13,
+    title: "Secret War",
+    duration: "0:56",
+    audioSrc: "/audio/Love  Death  и  Robots - Secret War.mp3",
+  },
+  {
+    id: 14,
+    title: "Three Robots",
+    duration: "0:37",
+    audioSrc: "/audio/Love  Death  и  Robots - Three Robots.mp3",
+  },
+  {
+    id: 15,
+    title: "Zima Blue",
+    duration: "0:43",
+    audioSrc: "/audio/Love  Death  и  Robots - Zima Blue.mp3",
+  },
+  {
+    id: 16,
+    title: "Sucker of Souls",
+    duration: "0:45",
+    audioSrc: "/audio/Love Death and Robots - Sucker of Souls.mp3",
+  },
+  {
+    id: 17,
+    title: "Suits",
+    duration: "0:53",
+    audioSrc: "/audio/Love Death and Robots - Suits.mp3",
+  },
+  {
+    id: 18,
+    title: "The Witness",
+    duration: "0:47",
+    audioSrc: "/audio/Love Death and Robots - The Witness.mp3",
+  },
+  {
+    id: 19,
+    title: "Sonnies Edge",
+    duration: "0:58",
+    audioSrc: "/audio/Rob Cairns - Sonnies Edge.mp3",
+  },
+  {
+    id: 20,
+    title: "OST LOVE...",
+    duration: "3:39",
+    audioSrc: "/audio/Roly Porter  (OST LOVE... - 4101.mp3",
+  },
+  {
+    id: 21,
+    title: "OX1",
+    duration: "2:03",
+    audioSrc: "/audio/Tommy Four Seven - OX1.mp3",
+  },
+  {
+    id: 22,
+    title: "Калинка",
+    duration: "4:36",
+    audioSrc: "/audio/Академический_Ансамбль_Калинка.mp3",
+  },
+];
+
+export default soundtracksData;

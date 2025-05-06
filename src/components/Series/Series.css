@@ -1,0 +1,172 @@
+.series-container {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 20px;
+  width: 100%;
+}
+
+.series-block {
+  width: 100%;
+  color: #fff;
+  text-decoration: none !important;
+  opacity: 0.6;
+  transition: 0.2s ease-in-out;
+}
+
+.series-block.active {
+  opacity: 1;
+}
+
+@media (max-width: 1400px) {
+  .series-container {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 1024px) {
+  .series-container {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .series-container {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+}
+
+.series-all {
+  margin-top: -360px;
+  position: relative;
+  z-index: 1;
+}
+
+.series-block h3 {
+  margin-top: 10px;
+  margin-bottom: 1px;
+}
+
+.series-block p {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.series-block:hover {
+  opacity: 1;
+}
+
+.series-block-preview {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 195px;
+  overflow: hidden;
+}
+
+.series-block-preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1.1);
+}
+
+.series-preview {
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.series-preview img {
+  width: 60px;
+  height: auto;
+}
+
+.series-preview:hover {
+  opacity: 1;
+}
+
+.series-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.series-link.active {
+  position: relative;
+}
+
+.series-block-preview.active::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px solid #ffffff;
+  pointer-events: none;
+}
+
+.series-block-preview.active .series-block {
+  transform: scale(0.98);
+}
+
+.season-tabs {
+  display: flex;
+  gap: 8px;
+  margin: 20px 0;
+  padding-bottom: 4px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.season-tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.season-tab {
+  width: 70px;
+  background: transparent;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+}
+
+.season-tab:hover {
+  font-weight: 700;
+}
+
+.season-tab.active {
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .season-tabs {
+    gap: 6px;
+    margin: 16px 0;
+  }
+
+  .season-tab {
+    padding: 6px 12px;
+    font-size: 13px;
+  }
+}
+
+.season-tab.active {
+  animation: tabActive 0.3s ease-out;
+}
